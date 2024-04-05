@@ -12,7 +12,7 @@ function About() {
                             <img src={myimg} alt="" className='w-10/12 object-cover rounded-sm hidden md:block' />
                         </div>
                         <div className="relative my-auto px-3">
-                            <h1 className="headline text-[7rem]">ABOUT ME</h1>
+                            <h1 className="headline text-[7rem] -top-[50%]">ABOUT ME</h1>
                             <h2 className="text-lg font-medium mb-3">Creative Web Developer</h2>
                             <p className="text-gray-700 mb-9">I am <span className="text-pink-950 font-medium">SOMESHWARAN</span> a Web Developer, and I'm very passionate and dedicated to my work.
 

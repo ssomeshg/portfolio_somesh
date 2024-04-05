@@ -92,7 +92,13 @@ background-repeat: no-repeat;
   
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke: 1px;
-  opacity: 00.3;
+  opacity: 00.1;
   position: absolute;
-  top: -50%;
+  
+}
+.skill__box:hover .skill__box--img{
+  transform: scale(1.2);
+  transition-duration: 0.4s;
+  transition-timing-function: ease-in-out;
+ 
 }
