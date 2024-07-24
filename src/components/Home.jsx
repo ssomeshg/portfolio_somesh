@@ -23,7 +23,7 @@ function Home() {
                             <div className='text-center md:text-left'>
                                 <span className="my-auto text-[1rem] font-semibold text-center md:text-left md:text-[1.5rem] relative text-white" >I'm a </span><span className='text-[1rem] font-semibold text-center md:text-left md:text-[1.5rem] change_txt bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 text-transparent bg-clip-text'><Typewriter
                                     words={['React Js Developer', "Mern Stack Developer"]}
-                                    loop={5}
+                                    loop={Infinity}
                                     cursor
                                     cursorStyle=''
                                     typeSpeed={70}
