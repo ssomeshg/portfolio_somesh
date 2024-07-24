@@ -15,72 +15,72 @@ const Skill = () => {
         {
             icon: web,
             techo: "HTML,CSS,JS",
-            content: "lorem ipsum dolor sit amet"
+            
         },
         {
             icon: reacticon,
             techo: "React",
-            content: "lorem ipsum dolor sit amet"
+            
         },
         {
             icon: node,
             techo: "Node js",
-            content: "lorem ipsum dolor sit amet"
+            
         },
         {
             icon: mango,
             techo: "Mongo DB",
-            content: "lorem ipsum dolor sit amet"
+            
         },
         {
             icon: bootstrap,
             techo: "Bootstrap",
-            content: "lorem ipsum dolor sit amet"
+            
         },
         {
             icon: tailwind,
             techo: "Tailwind",
-            content: "lorem ipsum dolor sit amet"
+            
         },
         {
             icon: git,
             techo: "GitHub",
-            content: "lorem ipsum dolor sit amet"
+            
         },
         {
             icon: figma,
             techo: "Figma",
-            content: "lorem ipsum dolor sit amet"
+            
         },
         {
             icon: photoshop,
             techo: "Photoshop",
-            content: "lorem ipsum dolor sit amet"
+            
         },
         {
             icon: illustrator,
             techo: "Illustrator",
-            content: "lorem ipsum dolor sit amet"
+            
         }
     ])
     return (
         <>
-            <div className="sk h-[100vh]">
-                <div className="px-3 md:px-0 container mx-auto relative mt-32">
+            <div className="sk h-full">
+                <div className="px-3 md:px-5 container mx-auto relative mt-32">
                     <h1 className="headline text-[7rem] -top-[100px]">SKILLS</h1>
-                    <h2 className="text-lg font-medium mb-3">My Top skills</h2>
-                    <div className="grid md:grid-cols-3 gap-4 mt-16">
+                    <h2 className="text-2xl bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 text-transparent bg-clip-text font-medium mb-3">My Top skills</h2>
+                    <div className="grid grid-cols-2  md:grid-cols-5 gap-4 mt-16">
                         {
                             skills.map(function (items) {
                                 return (
-                                    <div className="skill__box flex gap-3 items-center justify-around bg-white shadow-lg shadow-gray-200 border border-gray-200 rounded-lg p-4">
-                                        <img src={items.icon} className='skill__box--img w-12 h-12' alt="" />
+                                    <div className="skill__box grid  md:flex gap-3 items-center justify-around bg-[#202E4B] shadow-lg shadow-[#202E4B] border border-gray-200 rounded-lg p-4">
+                                        <img src={items.icon} className='skill__box--img mx-auto md:mx-0 w-12 h-12' alt="" />
                                         <div>
-                                            <h1 className='text-xl'>{items.techo}</h1>
-                                            <p>{items.content}</p>
+                                            <h1 className='text-xl bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 text-transparent bg-clip-text font-medium'>{items.techo}</h1>
+                                            
                                         </div>
-                                        <p>→</p>
-                                    </div>
+                                        
+                                    </div> 
                                 )
                             })
                         }
