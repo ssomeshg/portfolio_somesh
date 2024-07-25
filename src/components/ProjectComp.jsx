@@ -1,9 +1,6 @@
-import myimg from '../assets/my_img.jpg'
-import About from './About'
-import { Link, ScrollRestoration } from 'react-router-dom'
+
 import github from '../assets/github-sign.png'
 import link from '../assets/link.png'
-import Viewproject from './ViewProject'
 import tripAdvisor from '../assets/Macbook-Air-tripadviser-clone.vercel.app.png'
 import tripAdvisorMobile from '../assets/iPhone-13-PRO-MAX-tripadviser-clone.vercel.app.png'
 import eshopkyweb from '../assets/Macbook-Air-e-shopky-frontend.vercel.app.png'
@@ -12,10 +9,7 @@ import eshopkyMobile from '../assets/iPhone-13-PRO-MAX-e-shopky-frontend.vercel.
 
 function ProjectComp() {
 
-  function handleView() {
-    return <Viewproject />
-
-  }
+ 
   const skill = [
     {
       projectImg: tripAdvisor,
@@ -47,7 +41,7 @@ function ProjectComp() {
             skill.map(function (items) {
               return (
 
-                <div className=" relative hover:scale-105 transition-all hover:shadow-lg hover:shadow-[#202E4B] hover:rounded-xl">
+                <div className="mt-3 relative hover:scale-105 transition-all hover:shadow-lg hover:shadow-[#202E4B] hover:rounded-xl">
 
 
 
@@ -64,13 +58,13 @@ function ProjectComp() {
 
                       <div className='mt-5 mb-3 flex items-center justify-center gap-10'>
                         <div>
-                          <a href={items.githubLink} className='text-center text-white text-xs hover:text-pink-300' target='_blank'>
+                          <a href={items.githubLink} className='text-center text-white text-xs hover:text-pink-300' target='_blank' rel="noreferrer">
                           <img src={github} alt=""  className='w-8 h-8 mx-auto mb-2'/>
                           <p>Github</p>
                           </a>
                         </div>
                         <div>
-                        <a href={items.websiteUrl} className='text-center text-white text-xs hover:text-pink-300' target='_blank'>
+                        <a href={items.websiteUrl} className='text-center text-white text-xs hover:text-pink-300' target='_blank' rel="noreferrer">
                           <img src={link} alt=""  className='w-8 h-8 mx-auto mb-2'/>
                           <p>Website Link</p>
                           </a>

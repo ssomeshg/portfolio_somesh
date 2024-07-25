@@ -18,7 +18,7 @@ function Home() {
                 <div className="px-3 md:px-5 container mx-auto h-full ">
                     <div className="grid md:grid-cols-2 ">
                         <div className='py-6 my-auto'>
-                            <h1 className="my-auto text-[1rem] text-center font-medium md:text-left md:text-[1.1rem] bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 text-transparent bg-clip-text" >Hy!! My Name is </h1>
+                            <h1 className="my-auto text-[1rem] text-center font-medium md:text-left md:text-[1.1rem] bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 text-transparent bg-clip-text" >Hii! My Name is </h1>
                             <h1 className='text-[2rem] text-center md:text-left md:text-[3rem] w-full my-3 font-bold text-white leading-9'>SOMESHWARAN</h1>
 
                             <div className='text-center md:text-left'>
@@ -49,7 +49,7 @@ With 1.5 years experience as a professional Web developer</p>
                 <ProjectComp />
                 <Contact/>
 
-                <div className='text-gray-700 text-center py-5'>
+                <div className='text-gray-700 text-center py-5 text-xs md:text-base px-2'>
                     <p>Designed and build by Someshwaran, 2024 © All rights reserved.</p>
                 </div>
             </div>
