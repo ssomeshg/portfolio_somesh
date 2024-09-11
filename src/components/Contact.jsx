@@ -20,7 +20,7 @@ export default function Contact() {
         {
             contactIcon: git,
             contactName: "GitHub",
-            contactLink: `https://github.com/ssomeshg`
+            contactLink: `https://github.com/ssomeshg/SOMESHWARAN`
         },
         {
             contactIcon: whatsapp,
