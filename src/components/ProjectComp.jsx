@@ -5,12 +5,21 @@ import tripAdvisor from '../assets/Macbook-Air-tripadviser-clone.vercel.app.png'
 import tripAdvisorMobile from '../assets/iPhone-13-PRO-MAX-tripadviser-clone.vercel.app.png'
 import eshopkyweb from '../assets/Macbook-Air-e-shopky-frontend.vercel.app.png'
 import eshopkyMobile from '../assets/iPhone-13-PRO-MAX-e-shopky-frontend.vercel.app.png'
-
+import soldWeb from '../assets/sold_web.png'
+import soldMob from '../assets/sold_mob.png'
 
 function ProjectComp() {
 
  
   const skill = [
+   {
+      projectImg: soldWeb,
+      mobileImg: soldMob,
+      projectName: "Sold4U2Day (UK-based Property Sale Broker Website)",
+      projectDetails: "Developed a responsive property sale broker website for the UK-based platform Sold4U2Day. Built using HTML, CSS, and Tailwind CSS, the site features a clean, professional design with a focus on usability and responsiveness. Implemented key UI components to showcase property listings, contact forms, and location-based content tailored for the UK market.",
+      githubLink : `https://www.sold4u2day.co.uk/`,
+      websiteUrl : `https://www.sold4u2day.co.uk/`
+    },
     {
       projectImg: tripAdvisor,
       mobileImg: tripAdvisorMobile,
